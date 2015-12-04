@@ -16,6 +16,7 @@
 		A21076161C1033FC00F63E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21076141C1033FC00F63E92 /* LaunchScreen.storyboard */; };
 		A21076211C1033FC00F63E92 /* baseComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21076201C1033FC00F63E92 /* baseComponentTests.m */; };
 		A210762C1C1033FC00F63E92 /* baseComponentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A210762B1C1033FC00F63E92 /* baseComponentUITests.m */; };
+		A21E04991C117D97006890F0 /* DownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A21E04981C117D97006890F0 /* DownLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A210762B1C1033FC00F63E92 /* baseComponentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseComponentUITests.m; sourceTree = "<group>"; };
 		A210762D1C1033FC00F63E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A21076391C10389300F63E92 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A21E04971C117D97006890F0 /* DownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoader.h; sourceTree = "<group>"; };
+		A21E04981C117D97006890F0 /* DownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoader.m; sourceTree = "<group>"; };
 		A7D0280998E3C09EB4D9BEAD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4FB8E66CE6F24647E044E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +133,8 @@
 				A210760A1C1033FC00F63E92 /* AppDelegate.m */,
 				A210760C1C1033FC00F63E92 /* ViewController.h */,
 				A210760D1C1033FC00F63E92 /* ViewController.m */,
+				A21E04971C117D97006890F0 /* DownLoader.h */,
+				A21E04981C117D97006890F0 /* DownLoader.m */,
 				A210760F1C1033FC00F63E92 /* Main.storyboard */,
 				A21076121C1033FC00F63E92 /* Assets.xcassets */,
 				A21076141C1033FC00F63E92 /* LaunchScreen.storyboard */,
@@ -352,6 +357,7 @@
 			files = (
 				A210760E1C1033FC00F63E92 /* ViewController.m in Sources */,
 				A210760B1C1033FC00F63E92 /* AppDelegate.m in Sources */,
+				A21E04991C117D97006890F0 /* DownLoader.m in Sources */,
 				A21076081C1033FC00F63E92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
